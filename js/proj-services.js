@@ -21,7 +21,7 @@
 //     …
 //     ]
 
-const projects = [
+const gProjs = [
     {
         id: "minesweeper",
         name: "Minesweeper",
@@ -77,3 +77,11 @@ const projects = [
         labels: ["Matrixes", "mouse-keyboard events"],
     },
 ];
+
+function getProjects() {
+    return gProjs;
+}
+
+function getProjByID(projId) {
+    return gProjs.find(proj => proj.id === projId);
+}
