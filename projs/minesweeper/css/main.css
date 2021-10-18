@@ -1,0 +1,262 @@
+
+html{
+
+    background-blend-mode:difference;
+    background-image: linear-gradient(to right, white , deeppink);
+}
+h1{
+    color: green;
+    mix-blend-mode:difference;
+    text-shadow: 2px 2px blue;
+    font-family: cursive;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* h2{
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+} */
+
+h3{
+    margin:auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+}
+h3 span{
+    margin:auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+}
+h3 :hover{
+    cursor: pointer;
+}
+
+
+
+.items{
+    font-family: Snell Roundhand, cursive;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px
+}
+
+
+.details{
+    position: relative;
+    display:inline-flex;
+    float: left;
+    white-space: normal;
+    
+}
+
+.btn-container{
+    margin-left: auto;
+    display:inline-flex;
+    text-align: center;
+    float: right;
+    white-space: normal;
+}
+
+.btn-container button:hover{
+    cursor: pointer;
+}
+
+.btn-container button{
+    margin-right: 10px;
+    mix-blend-mode: lighten;
+
+}
+
+.spn-btns button{
+    mix-blend-mode: darken;
+
+}
+
+
+.board{
+    text-align: center;
+    
+
+}
+table{
+    margin-left:  auto;
+    margin-right: auto;
+    color: black;
+    border: 5px black solid;
+}
+td{
+    border:  5px black solid;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: deeppink;
+    
+}
+
+td span{
+    visibility: hidden;
+}
+
+tr{
+    border:  5px black solid;
+    width: 10px;
+    height: 10px;
+}
+
+.shown{
+    transition:background-color 1s;
+    background-color: yellow;
+    visibility: visible;
+}
+span.shown{
+    background-color: transparent;
+}
+
+.marked{
+    background-color:honeydew;
+    visibility: visible;
+}
+
+.timer {
+    font-size: 15px;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 15px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: linear-gradient(to left, white , deeppink);
+    color:white;
+
+}
+
+.bolded{
+    transition:background-color 1s;
+    background-color: white;
+    background-blend-mode: screen, difference, lighten;
+}
+
+.safeClicks{
+    margin-top: 5px;
+    width: 170px;
+    height: fit-content;
+
+}
+.safeClicks :hover{
+    cursor: pointer;
+}
+
+.hints{
+    /* display: inline-block; */
+    margin-top: 5px;
+    width: 120px;
+    height: fit-content;
+    /* background-color: deeppink; */
+}
+.hints :hover{
+    cursor: pointer;
+}
+
+.lives{
+    margin-top: 5px;
+    width: 120px;
+    height: fit-content;
+}
+.lives :hover{
+    cursor: pointer;
+}
+
+.modal {
+    font-family: Snell Roundhand, cursive;
+    display: none;
+    width: 150px;
+    height: 50px;
+    background-color: pink;
+    position:fixed;
+    padding: 50px;
+    top: 30%;
+    left: 40%;
+    border: 5px white solid;
+
+}
+
+.modal .win{
+    display: none;
+    color: blue;
+}
+
+.modal .lose{
+    display: none;
+    color: red;
+}
+
+.bordered{
+    transition:background-color 1s;
+    background-color: black;
+}
+
+.modalManual {
+    font-family: Snell Roundhand, cursive;
+    display: none;
+    width: fit-content;
+    height: 50px;
+    background-color: pink;
+    position:fixed;
+    padding: 50px;
+    top: 30%;
+    left: 40%;
+    border: 5px white solid;
+}
+.modalManual button{
+    margin-top: 15px;
+    margin-left: 40%;
+}
+
+.modalSevenBoom {
+    font-family: Snell Roundhand, cursive;
+    display: none;
+    width: fit-content;
+    height: 50px;
+    background-color: pink;
+    position:fixed;
+    padding: 50px;
+    top: 30%;
+    left: 40%;
+    border: 5px white solid;
+}
+
+.modalSevenBoom button{
+    margin-top: 15px;
+    margin-left: 40%;
+}
+
+.done {
+    font-family: Snell Roundhand, cursive;
+    display: none;
+    width: fit-content;
+    height: 50px;
+    background-color: pink;
+    position:fixed;
+    padding: 50px;
+    top: 30%;
+    left: 40%;
+    border: 5px white solid;
+}
+
+.done button{
+    margin-top: 15px;
+    margin-left: 40%;
+}
+
+.undo{
+    border:black dotted;
+}

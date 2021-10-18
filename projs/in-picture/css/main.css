@@ -1,0 +1,55 @@
+
+
+body{
+    /* background-color: aqua; */
+    background-image:url("/pics/cover.jfif") ;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+    mix-blend-mode: difference;
+}
+h2{
+    color: crimson;
+    text-align: center;
+}
+
+.board{
+    margin-top: 50px;
+    display:grid;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.board img{
+    width: 400px;
+    height: 400px;
+}
+
+.answers{
+    border: rgb(216, 165, 240) 10px solid;
+    border-radius: 15%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: large;
+    background-color: rgb(178, 134, 184);
+    mix-blend-mode: difference;
+    width: fit-content;
+    height:fit-content;
+    padding: 15px;
+
+}
+/* .board img :hover{
+    cursor:not-allowed;
+} */
+.board :hover{
+    cursor:pointer;
+}
+
+.playBtn {
+    display: none;
+}
