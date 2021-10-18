@@ -83,5 +83,5 @@ function getProjects() {
 }
 
 function getProjByID(projId) {
-    return gProjs.find(proj => proj.id === projId);
+    return gProjs.find(project => project.id === projId);
 }
