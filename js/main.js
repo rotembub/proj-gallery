@@ -17,7 +17,7 @@ function renderPortfolio() {
               <i class="fa fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="img/proj-pics/${proj.id}.png" alt="">
+          <img class="img-fluid" src="img/proj-pics/${proj.id}.png" alt="Responsive image">
         </a>
         <div class="portfolio-caption">
           <h4>${proj.name}</h4>
@@ -35,8 +35,7 @@ function renderModal(project) {
     <img class="img-fluid d-block mx-auto" src="img/proj-pics/${project.id}.png" alt="">
     <p>${project.desc}</p>
     <ul class="list-inline">
-    <li>Date: January 2017</li>
-    <li>Client: Threads</li>
+    <li>Date: 2021</li>
     <li>Category: ${project.labels}</li></ul><a target="_blank" href="${project.url}" class="mr-2 btn btn-primary btn-lg" tabindex="-1" role="button" aria-disabled="true">Check it out!</a><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i>Close Project</button>`;
     $('.modal-body').html(strHTML);
 }
