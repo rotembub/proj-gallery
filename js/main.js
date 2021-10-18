@@ -2,8 +2,6 @@
 
 console.log('Starting up');
 
-// $('.portfolio-link').click(renderModal($('.portfolio-link h4').text()))
-
 function initPage() {
     renderPortfolio();
 }
@@ -29,7 +27,6 @@ function renderPortfolio() {
     });
     strHTML += strArray.join('') + '</div>'; //  had to do join() because .html() still added those "," seperators
     $('.bg-light .container').html(strHTML);
-    // console.log(strHTML);
 }
 
 function renderModal(project) {
@@ -49,5 +46,9 @@ function updateModal(projID) {
     renderModal(project);
 }
 
-
-
+function openContactMe() {
+    var subject = $('#subject').val();
+    var message = $('#message').val();
+    var email = $('#email').val();
+    window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=rotemasdwe@gmail.com&su=${subject}&body=${message} \n ${email}`);
+}
