@@ -8,26 +8,13 @@
 // • Todos
 // • Books Shop
 
-// [
-//     {
-//         id: "sokoban",
-//         name: "Sokoban",
-//         title: "Better push those boxes",
-//         desc: "lorem ipsum lorem ipsum lorem ipsum",
-//         url: "projs/sokoban",
-//         publishedAt: 1448693940000,
-//         labels: ["Matrixes", "keyboard events"],
-//     },
-//     …
-//     ]
-
 const gProjs = [
     {
         id: "minesweeper",
         name: "Minesweeper",
         title: "Check this out!",
         desc: "A minesweeper game i made not so long ago",
-        url: "projs/minesweeper",
+        url: "projs/minesweeper/index.html",
         publishedAt: 1448693940000,
         labels: ["Matrixes", "mouse-click events"],
     },
@@ -36,7 +23,7 @@ const gProjs = [
         name: "In Pictures",
         title: "Go Ahead I dare ya!",
         desc: "A simple whats in the photo game",
-        url: "projs/in-picture",
+        url: "projs/in-picture/main.html",
         publishedAt: 1448693940000,
         labels: ["Matrixes", "mouse-click events"],
     },
@@ -45,7 +32,7 @@ const gProjs = [
         name: "Touch-nums",
         title: "Memory checkups",
         desc: "A matrix filled with nums randomly which you need to press in order",
-        url: "projs/touch-nums",
+        url: "projs/touch-nums/index.html",
         publishedAt: 1448693940000,
         labels: ["Matrixes", "mouse-click events"],
     },
@@ -54,7 +41,7 @@ const gProjs = [
         name: "Ball-board",
         title: "Only for the quickest",
         desc: "catch the balls as fast as u can",
-        url: "projs/ball-board",
+        url: "projs/ball-board/index.html",
         publishedAt: 1448693940000,
         labels: ["Matrixes", "mouse-keyboard events"],
     },
@@ -63,7 +50,7 @@ const gProjs = [
         name: "Mister-chess",
         title: "Chess game",
         desc: "woking out functionalities for chess pieces",
-        url: "projs/mister-chess",
+        url: "projs/mister-chess/index.html",
         publishedAt: 1448693940000,
         labels: ["Matrixes", "mouse-click events"],
     },
@@ -72,7 +59,7 @@ const gProjs = [
         name: "pacman-starter",
         title: "Dont let those ghosts catch ya",
         desc: "a pacman copy-cat",
-        url: "projs/pacman-starter",
+        url: "projs/pacman-starter/index.html",
         publishedAt: 1448693940000,
         labels: ["Matrixes", "mouse-keyboard events"],
     },

@@ -40,7 +40,7 @@ function renderModal(project) {
     <ul class="list-inline">
     <li>Date: January 2017</li>
     <li>Client: Threads</li>
-    <li>Category: ${project.labels}</li></ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i>Close Project</button>`;
+    <li>Category: ${project.labels}</li></ul><a target="_blank" href="${project.url}" class="mr-2 btn btn-primary btn-lg" tabindex="-1" role="button" aria-disabled="true">Check it out!</a><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i>Close Project</button>`;
     $('.modal-body').html(strHTML);
 }
 
